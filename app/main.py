@@ -68,9 +68,6 @@ async def root():
     return {
         "message": "KNN Optimize Meta Heuristic API",
         "status": "running",
-        "version": "1.0.0",
-        "docs": "/docs",
-        "redoc": "/redoc",
         "endpoints": {
             "optimize": "/knn/optimize",
             "validate": "/knn/validate-dataset",
